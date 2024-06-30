@@ -68,13 +68,12 @@
 /* Style for the gallery container */
 .gallery {
   height: auto; /* Maintain the aspect ratio */
-  width: 100px; /* Set the desired width */
+  width: 100%; /* Set the desired width */
 }
 
 .gallery img {
   width: 100%; /* Make sure the image fills its container */
   cursor: pointer;
-  margin-left: 50px;
 }
 
 .gallery img:hover{
