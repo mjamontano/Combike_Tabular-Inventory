@@ -68,7 +68,7 @@
 /* Style for the gallery container */
 .gallery {
   height: auto; /* Maintain the aspect ratio */
-  width: 100%; /* Set the desired width */
+  width: 120px; /* Set the desired width */
 }
 
 .gallery img {
@@ -158,7 +158,7 @@ table1, table2, table3, th, td {
 
 th, td, h2, h3 {
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 tr:nth-child(even) {
@@ -167,7 +167,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 .menu {
