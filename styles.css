@@ -159,15 +159,17 @@ table1, table2, table3, th, td {
 th, td, h2, h3 {
   text-align: center;
   padding: 10px;
+  color: #2d2d66;
 }
 
 tr:nth-child(even) {
-  background-color: #8366ad;
-  color: white;
+  background-color: #e6e6e6;
+  color: #2d2d66;
 }
 
 tr:nth-child(odd) {
-  background-color: white;
+  background-color: #f2f2f2;
+  color: #2d2d66;
 }
 
 .menu {
