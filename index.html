@@ -13,7 +13,13 @@
   <!-- Editing the Leaderboard and Rankings, separating by purpose.-->
   <!-- Adding Jersey/Kit in Legend-->
   <!-- 07/11/2024 Update: styles.css - Lines 162, 165-166, 170-171; Arranged Leaderboard-->
-  <!-- 07/18/2024 Update: Fixed the table width columns in styles.css-->
+  <!-- 07/18/2024 Update: Fixed the table width columns in styles.css-->4
+<!-- 9th Sprint Update: N/A-->
+<!-- 10th Sprint Update: N/A-->
+<!-- 11th Sprint Update: 08/20/2024 (Deadline: 09/01/2024)-->
+  <!-- Merged N/A values to Legend table using rowspan="2" & colspan="2"-->
+  <!-- Edited the Jersey for Top 1 adding Giro d'Italia (pink jersey) and La Vuelta Espana (red jersey)-->
+  <!-- Edited the orientation of inventory moving "Map" columns before "Date"-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -90,15 +96,12 @@
     <td><img src="2nd.png" alt="2nd place"></td>
     <td>2nd Place Overall</td>
     <td style="font-style: italic">This tagging is for being second place in general areas.</td>
-    <td>N/A</td>
-    <td>N/A</td>
+    <td rowspan="2" colspan="2">N/A</td>
   </tr>
   <tr>
     <td><img src="3rd.png" alt="3rd place"></td>
     <td>3rd Place Overall</td>
     <td style="font-style: italic">This tagging is for being third place in general areas.</td>
-    <td>N/A</td>
-    <td>N/A</td>
     </tr>
 </table>
 <h1></h1>
@@ -236,6 +239,7 @@
 <div class="logo">Year 2024</div>
 <table id="table5">
   <tr>
+      <th>Map</th>
       <th>Date</th>
       <th>Calories Burned (kcal)</th>
       <th>Distance (mi)</th>
@@ -243,7 +247,6 @@
       <th>Average Speed (mph)</th>
       <th>Max Altitude (ft)</th>
       <th>Purpose</th>
-      <th>Map</th>
       <th>Rank (Calories Burned)</th>
       <th>Rank (Distance)</th>
       <th>Rank (Time)</th>
@@ -251,6 +254,7 @@
       <th>Rank (Max Altitude)</th>
   </tr>
   <tr>
+      <td><div class="gallery"><img src="01032024 P1.png" onclick="openFullImg(this.src)" alt="01032024 P1"></div></td>
       <td>01/03/2024</td>
       <td>83</td>
       <td>2.5</td>
@@ -258,7 +262,6 @@
       <td>8.2</td>
       <td>357</td>
       <td>Bike to Work</td>
-      <td><div class="gallery"><img src="01032024 P1.png" onclick="openFullImg(this.src)" alt="01032024 P1"></div></td>
       <td>13th</td>
       <td>11th</td>
       <td><img src="2nd.png" alt="2nd place"></td>
@@ -266,6 +269,7 @@
       <td>4th</td>
   </tr>
   <tr>
+    <td><div class="gallery"><img src="01032024 P2.png" onclick="openFullImg(this.src)" alt="01032024 P2"></div></td>
     <td>01/03/2024</td>
     <td>92</td>
     <td>2.4</td>
@@ -273,7 +277,6 @@
     <td>8.2</td>
     <td>347</td>
     <td>Home from Work</td>
-    <td><div class="gallery"><img src="01032024 P2.png" onclick="openFullImg(this.src)" alt="01032024 P2"></div></td>
     <td>13th</td>
     <td>15th</td>
     <td>12th</td>
@@ -281,6 +284,7 @@
     <td>16th</td>
   </tr>
 <tr>
+  <td><div class="gallery"><img src="01172024 P1.png" onclick="openFullImg(this.src)" alt="01172024 P1"></div></td>
   <td>01/17/2024</td>
   <td>127</td>
   <td>2.6</td>
@@ -288,7 +292,6 @@
   <td>6.6</td>
   <td>367</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="01172024 P1.png" onclick="openFullImg(this.src)" alt="01172024 P1"></div></td>
   <td><img src="3rd.png" alt="3rd place"></td>
   <td>6th</td>
   <td>16th</td>
@@ -296,6 +299,7 @@
   <td><img src="3rd.png" alt="3rd place"></td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01172024 P2.png" onclick="openFullImg(this.src)" alt="01172024 P2"></div></td>
   <td>01/17/2024</td>
   <td>100</td>
   <td>2.5</td>
@@ -303,7 +307,6 @@
   <td>8.3</td>
   <td>488</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="01172024 P2.png" onclick="openFullImg(this.src)" alt="01172024 P2"></div></td>
   <td>9th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>10th</td>
@@ -311,6 +314,7 @@
   <td>5th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01182024.png" onclick="openFullImg(this.src)" alt="01182024"></div></td>
   <td>01/18/2024</td>
   <td>54</td>
   <td>2.2</td>
@@ -318,7 +322,6 @@
   <td>8.5</td>
   <td>206</td>
   <td>Bike to Aunt's</td>
-  <td><div class="gallery"><img src="01182024.png" onclick="openFullImg(this.src)" alt="01182024"></div></td>
   <td><img src="3rd.png" alt="3rd place"></td>
   <td><img src="3rd.png" alt="3rd place"></td>
   <td><img src="3rd.png" alt="3rd place"></td>
@@ -326,6 +329,7 @@
   <td><img src="3rd.png" alt="3rd place"></td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01192024.png" onclick="openFullImg(this.src)" alt="01192024"></div></td>
   <td>01/19/2024</td>
   <td>25</td>
   <td>1.9</td>
@@ -333,7 +337,6 @@
   <td>9.9</td>
   <td>170</td>
   <td>Home from Aunt's</td>
-  <td><div class="gallery"><img src="01192024.png" onclick="openFullImg(this.src)" alt="01192024"></div></td>
   <td>4th</td>
   <td>4th</td>
   <td><img src="1st.png" alt="1st place"></td>
@@ -341,6 +344,7 @@
   <td>4th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01242024 P1.png" onclick="openFullImg(this.src)" alt="01242024 P1"></div></td>
   <td>01/24/2024</td>
   <td>93</td>
   <td>2.7</td>
@@ -348,7 +352,6 @@
   <td>7.9</td>
   <td>298</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="01242024 P1.png" onclick="openFullImg(this.src)" alt="01242024 P1"></div></td>
   <td>11th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>10th</td>
@@ -356,6 +359,7 @@
   <td>12th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01242024 P2.png" onclick="openFullImg(this.src)" alt="01242024 P2"></div></td>
   <td>01/24/2024</td>
   <td>146</td>
   <td>2.5</td>
@@ -363,7 +367,6 @@
   <td>8.4</td>
   <td>521</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="01242024 P2.png" onclick="openFullImg(this.src)" alt="01242024 P2"></div></td>
   <td><img src="3rd.png" alt="3rd place"></td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>14th</td>
@@ -371,6 +374,7 @@
   <td><img src="3rd.png" alt="3rd place"></td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01312024 P1.png" onclick="openFullImg(this.src)" alt="01312024 P1"></div></td>
   <td>01/31/2024</td>
   <td>124</td>
   <td>2.7</td>
@@ -378,7 +382,6 @@
   <td>8.6</td>
   <td>341</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="01312024 P1.png" onclick="openFullImg(this.src)" alt="01312024 P1"></div></td>
   <td>4th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>15th</td>
@@ -386,6 +389,7 @@
   <td>6th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="01312024 P2.png" onclick="openFullImg(this.src)" alt="01312024 P2"></div></td>
   <td>01/31/2024</td>
   <td>91</td>
   <td>2.2</td>
@@ -393,7 +397,6 @@
   <td>9.5</td>
   <td>354</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="01312024 P2.png" onclick="openFullImg(this.src)" alt="01312024 P2"></div></td>
   <td>15th</td>
   <td>16th</td>
   <td><img src="3rd.png" alt="3rd place"></td>
@@ -401,6 +404,7 @@
   <td>15th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02072024 P1.png" onclick="openFullImg(this.src)" alt="02072024 P1"></div></td>
   <td>02/07/2024</td>
   <td>152</td>
   <td>2.6</td>
@@ -408,7 +412,6 @@
   <td>7.7</td>
   <td>301</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="02072024 P1.png" onclick="openFullImg(this.src)" alt="02072024 P1"></div></td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>6th</td>
   <td>11th</td>
@@ -416,6 +419,7 @@
   <td>11th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02072024 P2.png" onclick="openFullImg(this.src)" alt="02072024 P2"></div></td>
   <td>02/07/2024</td>
   <td>96</td>
   <td>2.5</td>
@@ -423,7 +427,6 @@
   <td>8.6</td>
   <td>423</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="02072024 P2.png" onclick="openFullImg(this.src)" alt="02072024 P2"></div></td>
   <td>11th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>8th</td>
@@ -431,6 +434,7 @@
   <td>12th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02142024 P1.png" onclick="openFullImg(this.src)" alt="02142024 P1"></div></td>
   <td>02/14/2024</td>
   <td>73</td>
   <td>2.5</td>
@@ -438,7 +442,6 @@
   <td>7.5</td>
   <td>357</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="02142024 P1.png" onclick="openFullImg(this.src)" alt="02142024 P1"></div></td>
   <td>15th</td>
   <td>11th</td>
   <td>5th</td>
@@ -446,6 +449,7 @@
   <td>4th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02142024 P2.png" onclick="openFullImg(this.src)" alt="02142024 P2"></div></td>
   <td>02/14/2024</td>
   <td>126</td>
   <td>2.5</td>
@@ -453,7 +457,6 @@
   <td>7.9</td>
   <td>482</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="02142024 P2.png" onclick="openFullImg(this.src)" alt="02142024 P2"></div></td>
   <td>4th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>16th</td>
@@ -461,6 +464,7 @@
   <td>6th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02212024 P1.png" onclick="openFullImg(this.src)" alt="02212024 P1"></div></td>
   <td>02/21/2024</td>
   <td>108</td>
   <td>2.6</td>
@@ -468,7 +472,6 @@
   <td>7.5</td>
   <td>311</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="02212024 P1.png" onclick="openFullImg(this.src)" alt="02212024 P1"></div></td>
   <td>7th</td>
   <td>6th</td>
   <td>8th</td>
@@ -476,6 +479,7 @@
   <td>9th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02212024 P2.png" onclick="openFullImg(this.src)" alt="02212024 P2"></div></td>
   <td>02/21/2024</td>
   <td>72</td>
   <td>2.5</td>
@@ -483,7 +487,6 @@
   <td>8.1</td>
   <td>429</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="02212024 P2.png" onclick="openFullImg(this.src)" alt="02212024 P2"></div></td>
   <td>17th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>6th</td>
@@ -491,6 +494,7 @@
   <td>11th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02282024 P1.png" onclick="openFullImg(this.src)" alt="02282024 P1"></div></td>
   <td>02/28/2024</td>
   <td>70</td>
   <td>2.5</td>
@@ -498,7 +502,6 @@
   <td>8.0</td>
   <td>475</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="02282024 P1.png" onclick="openFullImg(this.src)" alt="02282024 P1"></div></td>
   <td>16th</td>
   <td>11th</td>
   <td><img src="3rd.png" alt="3rd place"></td>
@@ -506,6 +509,7 @@
   <td><img src="1stalt.png" alt="1st place in altitude"></td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="02282024 P2.png" onclick="openFullImg(this.src)" alt="02282024 P2"></div></td>
   <td>02/28/2024</td>
   <td>92</td>
   <td>2.0</td>
@@ -513,7 +517,6 @@
   <td>8.7</td>
   <td>475</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="02282024 P2.png" onclick="openFullImg(this.src)" alt="02282024 P2"></div></td>
   <td>13th</td>
   <td>17th</td>
   <td>5th</td>
@@ -521,6 +524,7 @@
   <td>8th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="03062024 P1.png" onclick="openFullImg(this.src)" alt="03062024 P1"></div></td>
   <td>03/06/2024</td>
   <td>50</td>
   <td>2.5</td>
@@ -528,7 +532,6 @@
   <td>7.5</td>
   <td>278</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="03062024 P1.png" onclick="openFullImg(this.src)" alt="03062024 P1"></div></td>
   <td>17th</td>
   <td>11th</td>
   <td><img src="1st.png" alt="1st place"></td>
@@ -536,6 +539,7 @@
   <td>16th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="03062024 P2.png" onclick="openFullImg(this.src)" alt="03062024 P2"></div></td>
   <td>03/06/2024</td>
   <td>97</td>
   <td>2.5</td>
@@ -543,7 +547,6 @@
   <td>8.2</td>
   <td>419</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="03062024 P2.png" onclick="openFullImg(this.src)" alt="03062024 P2"></div></td>
   <td>10th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>7th</td>
@@ -551,6 +554,7 @@
   <td>13th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="03132024 P1.png" onclick="openFullImg(this.src)" alt="03132024 P1"></div></td>
   <td>03/13/2024</td>
   <td>108</td>
   <td>2.5</td>
@@ -558,7 +562,6 @@
   <td>7.8</td>
   <td>311</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="03132024 P1.png" onclick="openFullImg(this.src)" alt="03132024 P1"></div></td>
   <td>7th</td>
   <td>11th</td>
   <td>6th</td>
@@ -566,6 +569,7 @@
   <td>9th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="03132024 P2.png" onclick="openFullImg(this.src)" alt="03132024 P2"></div></td>
   <td>03/13/2024</td>
   <td>75</td>
   <td>2.5</td>
@@ -573,7 +577,6 @@
   <td>8.8</td>
   <td>482</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="03132024 P2.png" onclick="openFullImg(this.src)" alt="03132024 P2"></div></td>
   <td>16th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>17th</td>
@@ -581,6 +584,7 @@
   <td>6th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="03202024 P1.png" onclick="openFullImg(this.src)" alt="03202024 P1"></div></td>
   <td>03/20/2024</td>
   <td>91</td>
   <td>2.5</td>
@@ -588,7 +592,6 @@
   <td>7.6</td>
   <td>278</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="03202024 P1.png" onclick="openFullImg(this.src)" alt="03202024 P1"></div></td>
   <td>12th</td>
   <td>11th</td>
   <td>4th</td>
@@ -596,6 +599,7 @@
   <td>16th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="03202024 P2.png" onclick="openFullImg(this.src)" alt="03202024 P2"></div></td>
   <td>03/20/2024</td>
   <td>116</td>
   <td>2.5</td>
@@ -603,7 +607,6 @@
   <td>9.1</td>
   <td>367</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="03202024 P2.png" onclick="openFullImg(this.src)" alt="03202024 P2"></div></td>
   <td>7th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>9th</td>
@@ -611,6 +614,7 @@
   <td>14th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="04032024 P1.png" onclick="openFullImg(this.src)" alt="04032024 P1"></div></td>
   <td>04/03/2024</td>
   <td>117</td>
   <td>2.7</td>
@@ -618,7 +622,6 @@
   <td>7.9</td>
   <td>328</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="04032024 P1.png" onclick="openFullImg(this.src)" alt="04032024 P1"></div></td>
   <td>6th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>12th</td>
@@ -626,6 +629,7 @@
   <td>8th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="04032024 P2.png" onclick="openFullImg(this.src)" alt="04032024 P2"></div></td>
   <td>04/03/2024</td>
   <td>95</td>
   <td>2.5</td>
@@ -633,7 +637,6 @@
   <td>8.3</td>
   <td>518</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="04032024 P2.png" onclick="openFullImg(this.src)" alt="04032024 P2"></div></td>
   <td>12th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>4th</td>
@@ -641,6 +644,7 @@
   <td>4th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="04172024 P1.png" onclick="openFullImg(this.src)" alt="04172024 P1"></div></td>
   <td>04/17/2024</td>
   <td>119</td>
   <td>2.6</td>
@@ -648,7 +652,6 @@
   <td>7.5</td>
   <td>334</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="04172024 P1.png" onclick="openFullImg(this.src)" alt="04172024 P1"></div></td>
   <td>5th</td>
   <td>6th</td>
   <td>13th</td>
@@ -656,6 +659,7 @@
   <td>7th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="04172024 P2.png" onclick="openFullImg(this.src)" alt="04172024 P2"></div></td>
   <td>04/17/2024</td>
   <td>124</td>
   <td>2.5</td>
@@ -663,7 +667,6 @@
   <td>7.7</td>
   <td>570</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="04172024 P2.png" onclick="openFullImg(this.src)" alt="04172024 P2"></div></td>
   <td>5th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>13th</td>
@@ -671,6 +674,7 @@
   <td><img src="2nd.png" alt="2nd place"></td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="04242024 P1.png" onclick="openFullImg(this.src)" alt="04242024 P1"></div></td>
   <td>04/24/2024</td>
   <td>226</td>
   <td>2.6</td>
@@ -678,7 +682,6 @@
   <td>7.3</td>
   <td>288</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="04242024 P1.png" onclick="openFullImg(this.src)" alt="04242024 P1"></div></td>
   <td><img src="1st.png" alt="1st place"></td>
   <td>6th</td>
   <td>17th</td>
@@ -686,6 +689,7 @@
   <td>14th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="04242024 P2.png" onclick="openFullImg(this.src)" alt="04242024 P2"></div></td>
   <td>04/24/2024</td>
   <td>106</td>
   <td>2.6</td>
@@ -693,7 +697,6 @@
   <td>8.1</td>
   <td>295</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="04242024 P2.png" onclick="openFullImg(this.src)" alt="04242024 P2"></div></td>
   <td>8th</td>
   <td><img src="1st.png" alt="1st place"></td>
   <td>11th</td>
@@ -701,6 +704,7 @@
   <td>17th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="05082024 P1.png" onclick="openFullImg(this.src)" alt="05082024 P1"></div></td>
   <td>05/08/2024</td>
   <td>75</td>
   <td>2.7</td>
@@ -708,7 +712,6 @@
   <td>7.9</td>
   <td>298</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="05082024 P1.png" onclick="openFullImg(this.src)" alt="05082024 P1"></div></td>
   <td>14th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td>14th</td>
@@ -716,6 +719,7 @@
   <td>12th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="05082024 P2.png" onclick="openFullImg(this.src)" alt="05082024 P2"></div></td>
   <td>05/08/2024</td>
   <td>1887</td>
   <td>2.5</td>
@@ -723,7 +727,6 @@
   <td>9.0</td>
   <td>436</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="05082024 P2.png" onclick="openFullImg(this.src)" alt="05082024 P2"></div></td>
   <td><img src="1st.png" alt="1st place"></td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td><img src="2nd.png" alt="2nd place"></td>
@@ -731,6 +734,7 @@
   <td>9th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="05152024 P1.png" onclick="openFullImg(this.src)" alt="05152024 P1"></div></td>
   <td>05/15/2024</td>
   <td>108</td>
   <td>3.6</td>
@@ -738,7 +742,6 @@
   <td>9.4</td>
   <td>288</td>
   <td>Bike to Work</td>
-  <td><div class="gallery"><img src="05152024 P1.png" onclick="openFullImg(this.src)" alt="05152024 P1"></div></td>
   <td>7th</td>
   <td><img src="1st.png" alt="1st place"></td>
   <td>9th</td>
@@ -746,6 +749,7 @@
   <td>14th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="05152024 P2.png" onclick="openFullImg(this.src)" alt="05152024 P2"></div></td>
   <td>05/15/2024</td>
   <td>117</td>
   <td>2.5</td>
@@ -753,7 +757,6 @@
   <td>10.4</td>
   <td>436</td>
   <td>Home from Work</td>
-  <td><div class="gallery"><img src="05152024 P2.png" onclick="openFullImg(this.src)" alt="05152024 P2"></div></td>
   <td>6th</td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td><img src="1st.png" alt="1st place"></td>
@@ -761,6 +764,7 @@
   <td>9th</td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="05202024.png" onclick="openFullImg(this.src)" alt="05202024"></div></td>
   <td>05/20/2024</td>
   <td>701</td>
   <td>13.8</td>
@@ -768,7 +772,6 @@
   <td>9.0</td>
   <td>400</td>
   <td>Training</td>
-  <td><div class="gallery"><img src="05202024.png" onclick="openFullImg(this.src)" alt="05202024"></div></td>
   <td><img src="1st.png" alt="1st place"></td>
   <td><img src="1st.png" alt="1st place"></td>
   <td>4th</td>
@@ -776,6 +779,7 @@
   <td><img src="2nd.png" alt="2nd place"></td>
 </tr>
 <tr>
+  <td><div class="gallery"><img src="06232024.png" onclick="openFullImg(this.src)" alt="06232024"></div></td>
   <td>06/23/2024</td>
   <td>59</td>
   <td>4.2</td>
@@ -783,7 +787,6 @@
   <td>8.4</td>
   <td>1299</td>
   <td>Testing</td>
-  <td><div class="gallery"><img src="06232024.png" onclick="openFullImg(this.src)" alt="06232024"></div></td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td><img src="2nd.png" alt="2nd place"></td>
   <td><img src="2nd.png" alt="2nd place"></td>
@@ -798,6 +801,7 @@
 </div>
 <table id="table6">
   <tr>
+      <th>Map</th>
       <th>Date</th>
       <th>Calories Burned (kcal)</th>
       <th>Distance (mi)</th>
@@ -805,7 +809,6 @@
       <th>Average Speed (mph)</th>
       <th>Max Altitude (ft)</th>
       <th>Purpose</th>
-      <th>Map</th>
       <th>Rank (Calories Burned)</th>
       <th>Rank (Distance)</th>
       <th>Rank (Time)</th>
@@ -813,6 +816,7 @@
       <th>Rank (Max Altitude)</th>
   </tr>
   <tr>
+    <td><div class="gallery"><img src="12202023 P1.png" onclick="openFullImg(this.src)" alt="12202023 P1"></div></td>
       <td>12/20/2023</td>
       <td>97</td>
       <td>2.5</td>
@@ -820,7 +824,6 @@
       <td>8.8</td>
       <td>377</td>
       <td>Bike to Work</td>
-      <td><div class="gallery"><img src="12202023 P1.png" onclick="openFullImg(this.src)" alt="12202023 P1"></div></td>
       <td>10th</td>
       <td>11th</td>
       <td>7th</td>
@@ -828,6 +831,7 @@
       <td><img src="2nd.png" alt="2nd place"></td>
   </tr>
   <tr>
+    <td><div class="gallery"><img src="12202023 P2.png" onclick="openFullImg(this.src)" alt="12202023 P2"></div></td>
     <td>12/20/2023</td>
     <td>1787</td>
     <td>2.5</td>
@@ -835,7 +839,6 @@
     <td>9.7</td>
     <td>1299</td>
     <td>Home from Work</td>
-    <td><div class="gallery"><img src="12202023 P2.png" onclick="openFullImg(this.src)" alt="12202023 P2"></div></td>
     <td><img src="2nd.png" alt="2nd place"></td>
     <td><img src="2nd.png" alt="2nd place"></td>
     <td>15th</td>
